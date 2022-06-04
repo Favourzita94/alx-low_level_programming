@@ -15,7 +15,7 @@ for (num = 0;num  <=9;num++)
 		continue;
 
 	putchar(',');
-	putchar('');
+	putchar(',');
 }
 
 	putchar('\n');
