@@ -1,12 +1,21 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * _putchar - writes the character c to
- * @c: The character to print
- *
- *Return: on success 1
- on error, -1 is returned, and errno is set appropriately
- */
-int _putchar(char c)
+ * main - entry block
+ * @void: no argument
+ *Return: Always 0
+ **/
+int main(void)
 {
-	return (write(1, &c, 1));
+	char ermias[] = "_putchar";
+
+	int c;
+
+	for (c = 0; c < 8; c++)
+
+	{
+		_putchar(ermias[c]);
+
+	}
+	_putchar('\n');
+	return (0);
 }
