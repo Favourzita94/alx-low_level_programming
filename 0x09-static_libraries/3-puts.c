@@ -1,31 +1,20 @@
 #include "main.h"
-
-
-
 /**
-
- * _puts - prints a string to stdout
-
- * @str: pointer to the string to print
-
+ * _puts - prints string followed by newline
+ * @str: pointer to string
+ *
+ * Return: void
  */
-
 void _puts(char *str)
-
 {
-
 	int i;
 
-
-
-	for (i = 0; str[i] != '\0'; i++)
-
+	i = 0;
+	while (*str != '\0')
 	{
-
-		_putchar(str[i]);
-
+		_putchar(*str);
+		i++;
+		str++;
 	}
-
 	_putchar('\n');
-
 }
