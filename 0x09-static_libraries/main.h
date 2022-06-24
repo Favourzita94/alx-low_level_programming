@@ -1,6 +1,6 @@
-#ifndef _MAIN_H_
+#ifndef MAIN_H
 
-#define _MAIN_H_
+#define MAIN_H
 
 
 
@@ -47,11 +47,3 @@ char *_strstr(char *haystack, char *needle);
 
 
 #endif
-
-© 2022 GitHub, Inc.
-
-Terms
-
-Privacy
-
-Security
