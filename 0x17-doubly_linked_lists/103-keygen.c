@@ -27,7 +27,6 @@ int f4(char *usrn, int len)
 
 	srand(ch ^ 14);
 	rand_num = rand();
-
 	return (rand_num & 63);
 }
 
@@ -70,18 +69,8 @@ int f6(char *usrn)
 	while (vch < *usrn)
 	{
 		ch = rand();
-		vc *)alph)[f4(argv[1], len)];
-	/* ----------- f5 ----------- */
-	keygen[4] = ((char *)alph)[f5(argv[1], len)];
-	/* ----------- f6 ----------- */
-	keygen[5] = ((char *)alph)[f6(argv[1])];
-	keygen[6] = '\0';
-	for (ch = 0; keygen[ch]; ch++)
-		printf("%c", keygen[ch]);
-	return (0);
-}h += 1;
+		vch += 1;
 	}
-
 	return (((unsigned int)ch ^ 229) & 63);
 }
 
